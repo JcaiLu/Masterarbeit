@@ -1,0 +1,3 @@
+F:/desktop/Masterarbeit/Preprocessing/cmake-build-debug-visual-studio/CMakeFiles/Preprocessing.dir
+F:/desktop/Masterarbeit/Preprocessing/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+F:/desktop/Masterarbeit/Preprocessing/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1434 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7e23a/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7e23a.dir\build.make CMakeFiles/cmTC_7e23a.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e23a.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles\cmTC_7e23a.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wnon-virtual-dtor' is valid for C++/ObjC++ but not for C
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_7e23a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7e23a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7e23a.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_7e23a.dir/objects.a @CMakeFiles\cmTC_7e23a.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_7e23a.dir/objects.a -Wl,--no-whole-archive -o cmTC_7e23a.exe -Wl,--out-implib,libcmTC_7e23a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7e23a.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1eebb/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1eebb.dir\build.make CMakeFiles/cmTC_1eebb.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1eebb.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles\cmTC_1eebb.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_1eebb.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1eebb.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1eebb.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_1eebb.dir/objects.a @CMakeFiles\cmTC_1eebb.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_1eebb.dir/objects.a -Wl,--no-whole-archive -o cmTC_1eebb.exe -Wl,--out-implib,libcmTC_1eebb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1eebb.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_facf7/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_facf7.dir\build.make CMakeFiles/cmTC_facf7.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_facf7.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles\cmTC_facf7.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wstrict-prototypes' is valid for C/ObjC but not for C++
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_facf7.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_facf7.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_facf7.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_facf7.dir/objects.a @CMakeFiles\cmTC_facf7.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_facf7.dir/objects.a -Wl,--no-whole-archive -o cmTC_facf7.exe -Wl,--out-implib,libcmTC_facf7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_facf7.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e34cd/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e34cd.dir\build.make CMakeFiles/cmTC_e34cd.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e34cd.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -o CMakeFiles\cmTC_e34cd.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wsign-promo' is valid for C++/ObjC++ but not for C
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_e34cd.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e34cd.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e34cd.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_e34cd.dir/objects.a @CMakeFiles\cmTC_e34cd.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_e34cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_e34cd.exe -Wl,--out-implib,libcmTC_e34cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e34cd.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_90558/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_90558.dir\build.make CMakeFiles/cmTC_90558.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90558.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized  -Wsuggest-override -std=c++11 -o CMakeFiles\cmTC_90558.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command line option '-Wsuggest-override'
+mingw32-make[1]: *** [CMakeFiles\cmTC_90558.dir\build.make:77: CMakeFiles/cmTC_90558.dir/src.cxx.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_90558/fast] Error 2
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_473b3/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_473b3.dir\build.make CMakeFiles/cmTC_473b3.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_473b3.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized  -Wsuggest-override -o CMakeFiles\cmTC_473b3.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-Wsuggest-override'
+mingw32-make[1]: *** [CMakeFiles\cmTC_473b3.dir\build.make:77: CMakeFiles/cmTC_473b3.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_473b3/fast] Error 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4b78d/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4b78d.dir\build.make CMakeFiles/cmTC_4b78d.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b78d.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles\cmTC_4b78d.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-Wno-delete-non-virtual-dtor' is valid for C++/ObjC++ but not for C
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_4b78d.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4b78d.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4b78d.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_4b78d.dir/objects.a @CMakeFiles\cmTC_4b78d.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_4b78d.dir/objects.a -Wl,--no-whole-archive -o cmTC_4b78d.exe -Wl,--out-implib,libcmTC_4b78d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4b78d.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2e03d/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2e03d.dir\build.make CMakeFiles/cmTC_2e03d.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e03d.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles\cmTC_2e03d.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking CXX executable cmTC_2e03d.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2e03d.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2e03d.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_2e03d.dir/objects.a @CMakeFiles\cmTC_2e03d.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_2e03d.dir/objects.a -Wl,--no-whole-archive -o cmTC_2e03d.exe -Wl,--out-implib,libcmTC_2e03d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2e03d.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ea212/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ea212.dir\build.make CMakeFiles/cmTC_ea212.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea212.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles\cmTC_ea212.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking C executable cmTC_ea212.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ea212.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ea212.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_ea212.dir/objects.a @CMakeFiles\cmTC_ea212.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_ea212.dir/objects.a -Wl,--no-whole-archive -o cmTC_ea212.exe -Wl,--out-implib,libcmTC_ea212.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ea212.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_da774/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_da774.dir\build.make CMakeFiles/cmTC_da774.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da774.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -O3 -DNDEBUG    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles\cmTC_da774.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+cc1.exe: warning: command line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTC_da774.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_da774.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_da774.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_da774.dir/objects.a @CMakeFiles\cmTC_da774.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\cmTC_da774.dir/objects.a -Wl,--no-whole-archive -o cmTC_da774.exe -Wl,--out-implib,libcmTC_da774.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_da774.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2395f/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2395f.dir\build.make CMakeFiles/cmTC_2395f.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2395f.dir/CheckSymbolExists.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_2395f.dir\CheckSymbolExists.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'posix_memalign' undeclared (first use in this function)
+   return ((int*)(&posix_memalign))[argc];
+                   ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_2395f.dir\build.make:77: CMakeFiles/cmTC_2395f.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2395f/fast] Error 2
+
+
+File F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4cc25/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4cc25.dir\build.make CMakeFiles/cmTC_4cc25.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cc25.dir/CheckSymbolExists.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_4cc25.dir\CheckSymbolExists.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'memalign' undeclared (first use in this function)
+   return ((int*)(&memalign))[argc];
+                   ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_4cc25.dir\build.make:77: CMakeFiles/cmTC_4cc25.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_4cc25/fast] Error 2
+
+
+File F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bfbad/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bfbad.dir\build.make CMakeFiles/cmTC_bfbad.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfbad.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wno-shorten-64-to-32 -o CMakeFiles\cmTC_bfbad.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking C executable cmTC_bfbad.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bfbad.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bfbad.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_bfbad.dir/objects.a @CMakeFiles\cmTC_bfbad.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_bfbad.dir/objects.a -Wl,--no-whole-archive -o cmTC_bfbad.exe -Wl,--out-implib,libcmTC_bfbad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bfbad.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-shift-negative-value"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e9824/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e9824.dir\build.make CMakeFiles/cmTC_e9824.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9824.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG    -Wno-shift-negative-value -o CMakeFiles\cmTC_e9824.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-shift-negative-value"
+Linking C executable cmTC_e9824.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e9824.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e9824.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_e9824.dir/objects.a @CMakeFiles\cmTC_e9824.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_e9824.dir/objects.a -Wl,--no-whole-archive -o cmTC_e9824.exe -Wl,--out-implib,libcmTC_e9824.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e9824.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_40b0e/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_40b0e.dir\build.make CMakeFiles/cmTC_40b0e.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40b0e.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wno-implicit-fallthrough -o CMakeFiles\cmTC_40b0e.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking C executable cmTC_40b0e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_40b0e.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_40b0e.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_40b0e.dir/objects.a @CMakeFiles\cmTC_40b0e.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_40b0e.dir/objects.a -Wl,--no-whole-archive -o cmTC_40b0e.exe -Wl,--out-implib,libcmTC_40b0e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_40b0e.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+NASM version 2.16.01 compiled on Apr 28 2023
+Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+NASM version 2.16.01 compiled on Apr 28 2023
+Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+NASM version 2.16.01 compiled on Apr 28 2023
+Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+NASM version 2.16.01 compiled on Apr 28 2023
+Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+nasm: error: unrecognised option `-V'
+Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+NASM version 2.16.01 compiled on Apr 28 2023
+Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+NASM version 2.16.01 compiled on Apr 28 2023
+Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+nasm: error: unrecognised option `-V'
+Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+nasm: error: unrecognised option `-q'
+Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft":
+nasm: error: unrecognised option `-?'
+Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+Usage: C:/mingw64/bin/nasm.exe [-@ response_file] [options...] [--] filename
+       C:/mingw64/bin/nasm.exe -v (or --v)
+
+Options (values in brackets indicate defaults):
+
+    -h            show this text and exit (also --help)
+    -v (or --v)   print the NASM version number and exit
+    -@ file       response file; one command line option per line
+
+    -o outfile    write output to outfile
+    --keep-all    output files will not be removed even if an error happens
+
+    -Xformat      specify error reporting format (gnu or vc)
+    -s            redirect error messages to stdout
+    -Zfile        redirect error messages to file
+
+    -M            generate Makefile dependencies on stdout
+    -MG           d:o, missing files assumed generated
+    -MF file      set Makefile dependency file
+    -MD file      assemble and generate dependencies
+    -MT file      dependency target name
+    -MQ file      dependency target name (quoted)
+    -MP           emit phony targets
+
+    -f format     select output file format
+       bin                  Flat raw binary (MS-DOS, embedded, ...) [default]
+       ith                  Intel Hex encoded flat binary
+       srec                 Motorola S-records encoded flat binary
+       aout                 Linux a.out
+       aoutb                NetBSD/FreeBSD a.out
+       coff                 COFF (i386) (DJGPP, some Unix variants)
+       elf32                ELF32 (i386) (Linux, most Unix variants)
+       elf64                ELF64 (x86-64) (Linux, most Unix variants)
+       elfx32               ELFx32 (ELF32 for x86-64) (Linux)
+       as86                 as86 (bin86/dev86 toolchain)
+       obj                  Intel/Microsoft OMF (MS-DOS, OS/2, Win16)
+       win32                Microsoft extended COFF for Win32 (i386)
+       win64                Microsoft extended COFF for Win64 (x86-64)
+       ieee                 IEEE-695 (LADsoft variant) object file format
+       macho32              Mach-O i386 (Mach, including MacOS X and variants)
+       macho64              Mach-O x86-64 (Mach, including MacOS X and variants)
+       dbg                  Trace of all info passed to output stage
+       elf                  Legacy alias for "elf32"
+       macho                Legacy alias for "macho32"
+       win                  Legacy alias for "win32"
+
+    -g            generate debugging information
+    -F format     select a debugging format (output format dependent)
+    -gformat      same as -g -F format
+       elf32:     dwarf     ELF32 (i386) dwarf (newer) [default]
+                  stabs     ELF32 (i386) stabs (older)
+       elf64:     dwarf     ELF64 (x86-64) dwarf (newer) [default]
+                  stabs     ELF64 (x86-64) stabs (older)
+       elfx32:    dwarf     ELFx32 (x86-64) dwarf (newer) [default]
+                  stabs     ELFx32 (x86-64) stabs (older)
+       obj:       borland   Borland Debug Records [default]
+       win32:     cv8       Codeview 8+ [default]
+       win64:     cv8       Codeview 8+ [default]
+       ieee:      ladsoft   LADsoft Debug Records [default]
+       macho32:   dwarf     Mach-O i386 dwarf for Darwin/MacOS [default]
+       macho64:   dwarf     Mach-O x86-64 dwarf for Darwin/MacOS [default]
+       dbg:       debug     Trace of all info passed to debug stage [default]
+
+    -l listfile   write listing to a list file
+    -Lflags...    add optional information to the list file
+       -Lb        show builtin macro packages (standard and %use)
+       -Ld        show byte and repeat counts in decimal, not hex
+       -Le        show the preprocessed output
+       -Lf        ignore .nolist (force output)
+       -Lm        show multi-line macro calls with expanded parameters
+       -Lp        output a list file every pass, in case of errors
+       -Ls        show all single-line macro definitions
+       -Lw        flush the output after every line (very slow!)
+       -L+        enable all listing options except -Lw (very verbose!)
+
+    -Oflags...    optimize opcodes, immediates and branch offsets
+       -O0        no optimization
+       -O1        minimal optimization
+       -Ox        multipass optimization (default)
+       -Ov        display the number of passes executed at the end
+    -t            assemble in limited SciTech TASM compatible mode
+
+    -E (or -e)    preprocess only (writes output to stdout by default)
+    -a            don't preprocess (assemble only)
+    -Ipath        add a pathname to the include file path
+    -Pfile        pre-include a file (also --include)
+    -Dmacro[=str] pre-define a macro
+    -Umacro       undefine a macro
+   --pragma str   pre-executes a specific %%pragma
+   --before str   add line (usually a preprocessor statement) before the input
+   --no-line      ignore %line directives in input
+
+   --prefix str   prepend the given string to the names of all extern,
+                  common and global symbols (also --gprefix)
+   --suffix str   append the given string to the names of all extern,
+                  common and global symbols (also --gprefix)
+   --lprefix str  prepend the given string to local symbols
+   --lpostfix str append the given string to local symbols
+
+   --reproducible attempt to produce run-to-run identical output
+
+    -w+x          enable warning x (also -Wx)
+    -w-x          disable warning x (also -Wno-x)
+    -w[+-]error   promote all warnings to errors (also -Werror)
+    -w[+-]error=x promote warning x to errors (also -Werror=x)
+       all                  all possible warnings
+       db-empty             no operand for data declaration [on]
+       ea                   all warnings prefixed with "ea-"
+       ea-absolute          absolute address cannot be RIP-relative [on]
+       ea-dispsize          displacement size ignored on absolute address [on]
+       float                all warnings prefixed with "float-"
+       float-denorm         floating point denormal [off]
+       float-overflow       floating point overflow [on]
+       float-toolong        too many digits in floating-point number [on]
+       float-underflow      floating point underflow [off]
+       forward              forward reference may have unpredictable results [on]
+       label                all warnings prefixed with "label-"
+       label-orphan         labels alone on lines without trailing `:' [on]
+       label-redef          label redefined to an identical value [off]
+       label-redef-late     label (re)defined during code generation [error]
+       number-overflow      numeric constant does not fit [on]
+       obsolete             all warnings prefixed with "obsolete-"
+       obsolete-nop         instruction obsolete and is a noop on the target CPU [on]
+       obsolete-removed     instruction obsolete and removed on the target CPU [on]
+       obsolete-valid       instruction obsolete but valid on the target CPU [on]
+       phase                phase error during stabilization [off]
+       pp                   all warnings prefixed with "pp-"
+       pp-else              all warnings prefixed with "pp-else-"
+       pp-else-elif         %elif after %else [on]
+       pp-else-else         %else after %else [on]
+       pp-empty-braces      empty %{} construct [on]
+       pp-environment       nonexistent environment variable [on]
+       pp-macro             all warnings prefixed with "pp-macro-"
+       pp-macro-def         all warnings prefixed with "pp-macro-def-"
+       pp-macro-def-case-single single-line macro defined both case sensitive and insensitive [on]
+       pp-macro-def-greedy-single single-line macro [on]
+       pp-macro-def-param-single single-line macro defined with and without parameters [error]
+       pp-macro-defaults    macros with more default than optional parameters [on]
+       pp-macro-params      all warnings prefixed with "pp-macro-params-"
+       pp-macro-params-legacy improperly calling multi-line macro for legacy support [on]
+       pp-macro-params-multi multi-line macro calls with wrong parameter count [on]
+       pp-macro-params-single single-line macro calls with wrong parameter count [on]
+       pp-macro-redef-multi redefining multi-line macro [on]
+       pp-open              all warnings prefixed with "pp-open-"
+       pp-open-braces       unterminated %{...} [on]
+       pp-open-brackets     unterminated %[...] [on]
+       pp-open-string       unterminated string [on]
+       pp-rep-negative      regative %rep count [on]
+       pp-sel-range         %sel() argument out of range [on]
+       pp-trailing          trailing garbage ignored [on]
+       pragma               all warnings prefixed with "pragma-"
+       pragma-bad           malformed %pragma [off]
+       pragma-empty         empty %pragma directive [off]
+       pragma-na            %pragma not applicable to this compilation [off]
+       pragma-unknown       unknown %pragma facility or directive [off]
+       prefix               all warnings prefixed with "prefix-"
+       prefix-bnd           invalid BND prefix [on]
+       prefix-hle           invalid HLE prefix [on]
+       prefix-lock          LOCK prefix on unlockable instructions [on]
+       prefix-opsize        invalid operand size prefix [on]
+       prefix-seg           segment prefix ignored in 64-bit mode [on]
+       ptr                  non-NASM keyword used in other assemblers [on]
+       regsize              register size specification ignored [on]
+       unknown-warning      unknown warning in -W/-w or warning directive [off]
+       user                 %warning directives [on]
+       warn-stack-empty     warning stack empty [on]
+       zeroing              RESx in initialized section becomes zero [on]
+       zext-reloc           relocation zero-extended to match output format [on]
+       other                any warning not specifically mentioned above [on]
+
+   --limit-X val  set execution limit X
+       passes               total number of passes [unlimited]
+       stalled-passes       number of passes without forward progress [1000]
+       macro-levels         levels of macro expansion [10000]
+       macro-tokens         tokens processed during single-lime macro expansion [10000000]
+       mmacros              multi-line macros before final return [100000]
+       rep                  %rep count [1000000]
+       eval                 expression evaluation descent [8192]
+       lines                total source lines processed [2000000000]
+Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+nasm: fatal: no input file specified
+Type C:/mingw64/bin/nasm.exe -h for help.
+Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+nasm: fatal: no input file specified
+Type C:/mingw64/bin/nasm.exe -h for help.
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8198a/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8198a.dir\build.make CMakeFiles/cmTC_8198a.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8198a.dir/CheckIncludeFile.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_8198a.dir\CheckIncludeFile.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:19: fatal error: dlfcn.h: No such file or directory
+ #include <dlfcn.h>
+                   ^
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_8198a.dir\build.make:77: CMakeFiles/cmTC_8198a.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_8198a/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d2526/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d2526.dir\build.make CMakeFiles/cmTC_d2526.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2526.dir/int8.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_d2526.dir\int8.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int8.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int8.c:27:22: error: 'INT8' undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int8.c:29:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_d2526.dir\build.make:77: CMakeFiles/cmTC_d2526.dir/int8.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_d2526/fast] Error 2
+
+
+F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8661e/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8661e.dir\build.make CMakeFiles/cmTC_8661e.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8661e.dir/int16.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_8661e.dir\int16.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int16.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int16.c:27:22: error: 'INT16' undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int16.c:29:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_8661e.dir\build.make:77: CMakeFiles/cmTC_8661e.dir/int16.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_8661e/fast] Error 2
+
+
+F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f3bbd/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f3bbd.dir\build.make CMakeFiles/cmTC_f3bbd.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3bbd.dir/int32.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_f3bbd.dir\int32.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int32.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int32.c:27:22: error: 'INT32' undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CheckTypeSize\int32.c:29:12: note: in expansion of macro 'SIZE'
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_f3bbd.dir\build.make:77: CMakeFiles/cmTC_f3bbd.dir/int32.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f3bbd/fast] Error 2
+
+
+F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2653e/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2653e.dir\build.make CMakeFiles/cmTC_2653e.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2653e.dir/CheckFunctionExists.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_2653e.dir\CheckFunctionExists.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_2653e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2653e.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2653e.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_2653e.dir/objects.a @CMakeFiles\cmTC_2653e.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_2653e.dir/objects.a -Wl,--no-whole-archive -o cmTC_2653e.exe -Wl,--out-implib,libcmTC_2653e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2653e.dir\linklibs.rsp
+CMakeFiles\cmTC_2653e.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `mmap'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_2653e.dir\build.make:100: cmTC_2653e.exe] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2653e/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9ff45/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9ff45.dir\build.make CMakeFiles/cmTC_9ff45.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ff45.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG    -Wno-misleading-indentation -o CMakeFiles\cmTC_9ff45.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking C executable cmTC_9ff45.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9ff45.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_9ff45.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_9ff45.dir/objects.a @CMakeFiles\cmTC_9ff45.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_9ff45.dir/objects.a -Wl,--no-whole-archive -o cmTC_9ff45.exe -Wl,--out-implib,libcmTC_9ff45.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9ff45.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-array-parameter"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-array-parameter'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ab658/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ab658.dir\build.make CMakeFiles/cmTC_ab658.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab658.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wno-array-parameter -o CMakeFiles\cmTC_ab658.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-array-parameter"
+Linking C executable cmTC_ab658.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ab658.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ab658.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_ab658.dir/objects.a @CMakeFiles\cmTC_ab658.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_ab658.dir/objects.a -Wl,--no-whole-archive -o cmTC_ab658.exe -Wl,--out-implib,libcmTC_ab658.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ab658.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus.exe: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c0d32/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c0d32.dir\build.make CMakeFiles/cmTC_c0d32.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0d32.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wno-missing-prototypes -std=c++11 -o CMakeFiles\cmTC_c0d32.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+cc1plus.exe: warning: command line option '-Wno-missing-prototypes' is valid for C/ObjC but not for C++
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTC_c0d32.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c0d32.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c0d32.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_c0d32.dir/objects.a @CMakeFiles\cmTC_c0d32.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_c0d32.dir/objects.a -Wl,--no-whole-archive -o cmTC_c0d32.exe -Wl,--out-implib,libcmTC_c0d32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c0d32.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-implicit-const-int-float-conversion"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f25f3/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f25f3.dir\build.make CMakeFiles/cmTC_f25f3.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f25f3.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wno-implicit-const-int-float-conversion -o CMakeFiles\cmTC_f25f3.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-implicit-const-int-float-conversion"
+Linking C executable cmTC_f25f3.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f25f3.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f25f3.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_f25f3.dir/objects.a @CMakeFiles\cmTC_f25f3.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_f25f3.dir/objects.a -Wl,--no-whole-archive -o cmTC_f25f3.exe -Wl,--out-implib,libcmTC_f25f3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f25f3.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_00a6d/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_00a6d.dir\build.make CMakeFiles/cmTC_00a6d.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00a6d.dir/CheckSymbolExists.c.obj
+C:\Strawberry\c\bin\gcc.exe -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_00a6d.dir\CheckSymbolExists.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'posix_memalign' undeclared (first use in this function)
+   return ((int*)(&posix_memalign))[argc];
+                   ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_00a6d.dir\build.make:77: CMakeFiles/cmTC_00a6d.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_00a6d/fast] Error 2
+
+
+File F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c79b6/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c79b6.dir\build.make CMakeFiles/cmTC_c79b6.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c79b6.dir/CheckSymbolExists.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_c79b6.dir\CheckSymbolExists.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'memalign' undeclared (first use in this function)
+   return ((int*)(&memalign))[argc];
+                   ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+mingw32-make[1]: *** [CMakeFiles\cmTC_c79b6.dir\build.make:77: CMakeFiles/cmTC_c79b6.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_c79b6/fast] Error 2
+
+
+File F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-cast-function-type"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-cast-function-type'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_777a3/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_777a3.dir\build.make CMakeFiles/cmTC_777a3.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_777a3.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG    -Wno-cast-function-type -o CMakeFiles\cmTC_777a3.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-cast-function-type"
+Linking C executable cmTC_777a3.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_777a3.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_777a3.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_777a3.dir/objects.a @CMakeFiles\cmTC_777a3.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_777a3.dir/objects.a -Wl,--no-whole-archive -o cmTC_777a3.exe -Wl,--out-implib,libcmTC_777a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_777a3.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1.exe: warning: unrecognized command line option "-Wno-null-pointer-subtraction"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a5c5a/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a5c5a.dir\build.make CMakeFiles/cmTC_a5c5a.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5c5a.dir/src.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG    -Wno-null-pointer-subtraction -o CMakeFiles\cmTC_a5c5a.dir\src.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1.exe: warning: unrecognized command line option "-Wno-null-pointer-subtraction"
+Linking C executable cmTC_a5c5a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a5c5a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a5c5a.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_a5c5a.dir/objects.a @CMakeFiles\cmTC_a5c5a.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_a5c5a.dir/objects.a -Wl,--no-whole-archive -o cmTC_a5c5a.exe -Wl,--out-implib,libcmTC_a5c5a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a5c5a.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4adac/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4adac.dir\build.make CMakeFiles/cmTC_4adac.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4adac.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG    -Wno-misleading-indentation -std=c++11 -o CMakeFiles\cmTC_4adac.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking CXX executable cmTC_4adac.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4adac.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4adac.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_4adac.dir/objects.a @CMakeFiles\cmTC_4adac.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_4adac.dir/objects.a -Wl,--no-whole-archive -o cmTC_4adac.exe -Wl,--out-implib,libcmTC_4adac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4adac.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-suggest-override"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-suggest-override'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7c6be/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7c6be.dir\build.make CMakeFiles/cmTC_7c6be.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c6be.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wno-suggest-override -std=c++11 -o CMakeFiles\cmTC_7c6be.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-suggest-override"
+Linking CXX executable cmTC_7c6be.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7c6be.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7c6be.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_7c6be.dir/objects.a @CMakeFiles\cmTC_7c6be.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_7c6be.dir/objects.a -Wl,--no-whole-archive -o cmTC_7c6be.exe -Wl,--out-implib,libcmTC_7c6be.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7c6be.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-inconsistent-missing-override"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_527ae/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_527ae.dir\build.make CMakeFiles/cmTC_527ae.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_527ae.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles\cmTC_527ae.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-inconsistent-missing-override"
+Linking CXX executable cmTC_527ae.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_527ae.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_527ae.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_527ae.dir/objects.a @CMakeFiles\cmTC_527ae.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_527ae.dir/objects.a -Wl,--no-whole-archive -o cmTC_527ae.exe -Wl,--out-implib,libcmTC_527ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_527ae.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_efed4/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_efed4.dir\build.make CMakeFiles/cmTC_efed4.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efed4.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wno-implicit-fallthrough -std=c++11 -o CMakeFiles\cmTC_efed4.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking CXX executable cmTC_efed4.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_efed4.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_efed4.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_efed4.dir/objects.a @CMakeFiles\cmTC_efed4.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_efed4.dir/objects.a -Wl,--no-whole-archive -o cmTC_efed4.exe -Wl,--out-implib,libcmTC_efed4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_efed4.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-tautological-compare"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-compare'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_98f23/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_98f23.dir\build.make CMakeFiles/cmTC_98f23.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98f23.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wno-tautological-compare -std=c++11 -o CMakeFiles\cmTC_98f23.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-tautological-compare"
+Linking CXX executable cmTC_98f23.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_98f23.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_98f23.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_98f23.dir/objects.a @CMakeFiles\cmTC_98f23.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_98f23.dir/objects.a -Wl,--no-whole-archive -o cmTC_98f23.exe -Wl,--out-implib,libcmTC_98f23.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_98f23.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-implicit-const-int-float-conversion"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_23e97/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_23e97.dir\build.make CMakeFiles/cmTC_23e97.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23e97.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles\cmTC_23e97.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-implicit-const-int-float-conversion"
+Linking CXX executable cmTC_23e97.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_23e97.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_23e97.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_23e97.dir/objects.a @CMakeFiles\cmTC_23e97.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-deprecated -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_23e97.dir/objects.a -Wl,--no-whole-archive -o cmTC_23e97.exe -Wl,--out-implib,libcmTC_23e97.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_23e97.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a7691/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a7691.dir\build.make CMakeFiles/cmTC_a7691.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7691.dir/CheckFunctionExists.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_a7691.dir\CheckFunctionExists.c.obj -c "C:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_a7691.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a7691.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a7691.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_a7691.dir/objects.a @CMakeFiles\cmTC_a7691.dir\objects1.rsp
+C:\Strawberry\c\bin\gcc.exe    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_a7691.dir/objects.a -Wl,--no-whole-archive -o cmTC_a7691.exe -Wl,--out-implib,libcmTC_a7691.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a7691.dir\linklibs.rsp
+CMakeFiles\cmTC_a7691.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_a7691.dir\build.make:100: cmTC_a7691.exe] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a7691/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-tautological-undefined-compare"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8610b/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8610b.dir\build.make CMakeFiles/cmTC_8610b.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8610b.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles\cmTC_8610b.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-tautological-undefined-compare"
+Linking CXX executable cmTC_8610b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8610b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8610b.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_8610b.dir/objects.a @CMakeFiles\cmTC_8610b.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_8610b.dir/objects.a -Wl,--no-whole-archive -o cmTC_8610b.exe -Wl,--out-implib,libcmTC_8610b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8610b.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-unused-const-variable"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4d92f/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4d92f.dir\build.make CMakeFiles/cmTC_4d92f.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4d92f.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG    -Wno-unused-const-variable -std=c++11 -o CMakeFiles\cmTC_4d92f.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-unused-const-variable"
+Linking CXX executable cmTC_4d92f.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4d92f.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4d92f.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_4d92f.dir/objects.a @CMakeFiles\cmTC_4d92f.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_4d92f.dir/objects.a -Wl,--no-whole-archive -o cmTC_4d92f.exe -Wl,--out-implib,libcmTC_4d92f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4d92f.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bd844/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bd844.dir\build.make CMakeFiles/cmTC_bd844.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd844.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles\cmTC_bd844.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking CXX executable cmTC_bd844.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bd844.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bd844.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_bd844.dir/objects.a @CMakeFiles\cmTC_bd844.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_bd844.dir/objects.a -Wl,--no-whole-archive -o cmTC_bd844.exe -Wl,--out-implib,libcmTC_bd844.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bd844.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-enum-compare-switch"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b323a/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b323a.dir\build.make CMakeFiles/cmTC_b323a.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b323a.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles\cmTC_b323a.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-enum-compare-switch"
+Linking CXX executable cmTC_b323a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b323a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b323a.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_b323a.dir/objects.a @CMakeFiles\cmTC_b323a.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_b323a.dir/objects.a -Wl,--no-whole-archive -o cmTC_b323a.exe -Wl,--out-implib,libcmTC_b323a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b323a.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file vidcap.h exists failed with the following output:
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a2858/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a2858.dir\build.make CMakeFiles/cmTC_a2858.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2858.dir/CheckIncludeFile.c.obj
+C:\Strawberry\c\bin\gcc.exe   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -o CMakeFiles\cmTC_a2858.dir\CheckIncludeFile.c.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: vidcap.h: No such file or directory
+ #include <vidcap.h>
+                    ^
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_a2858.dir\build.make:77: CMakeFiles/cmTC_a2858.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a2858/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus.exe: warning: unrecognized command line option "-Wno-unused-private-field"'
+Compilation failed:
+    source file: 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_387d6/fast && C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_387d6.dir\build.make CMakeFiles/cmTC_387d6.dir/build
+mingw32-make[1]: Entering directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_387d6.dir/src.cxx.obj
+C:\Strawberry\c\bin\g++.exe   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG    -Wno-unused-private-field -std=c++11 -o CMakeFiles\cmTC_387d6.dir\src.cxx.obj -c F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx
+F:\desktop\Masterarbeit\Preprocessing\include\mingw-build\CMakeFiles\CMakeTmp\src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-unused-private-field"
+Linking CXX executable cmTC_387d6.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_387d6.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_387d6.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\cmTC_387d6.dir/objects.a @CMakeFiles\cmTC_387d6.dir\objects1.rsp
+C:\Strawberry\c\bin\g++.exe    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-missing-field-initializers -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections  -Wl,--whole-archive CMakeFiles\cmTC_387d6.dir/objects.a -Wl,--no-whole-archive -o cmTC_387d6.exe -Wl,--out-implib,libcmTC_387d6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_387d6.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'F:/desktop/Masterarbeit/Preprocessing/include/mingw-build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
