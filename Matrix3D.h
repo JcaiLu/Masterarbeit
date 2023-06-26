@@ -20,8 +20,10 @@ private:
 public:
     void InitMatrix();
     int* GeneratePointInMatrix();
+    int *GeneratePointInMatrix(std::vector<std::vector<std::vector<PointStruct>>> & tempVector);
     void CopyVectorTo(std::vector<std::vector<std::vector<PointStruct>>> & to);
     void CopyVectorTo(std::vector<std::vector<std::vector<int>>> & to);
+    void InversePixelValue();
 
     int getSize();
     int getX();
@@ -33,6 +35,7 @@ public:
 //    static void RandomMatrix(std::vector<std::vector<std::vector<float>>> &pStrInput);
     void PrintMatrix();
     void Vector3DToImag();
+    void VectorInit(std::vector<std::vector<std::vector<int>>> & _tempVector);
 //    void ImgGauss3D(std::vector<cv::Mat> &inputMatrix);
 //
 //    static std::vector<float> GenerateGaussRadius(const float & porosity,const float & meanradius,const float sigma, const int & x, const int & y, const int & z);
@@ -51,6 +54,7 @@ public:
     //// funtion about visualisation
 public:
    //static Mat MatrixTOImg(const std::vector<std::vector<std::vector<float>>>& pStrInput, unsigned int &num);
+
 
 };
 

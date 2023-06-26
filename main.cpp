@@ -17,13 +17,14 @@ int main() {
     clock_t start,end;//定义clock_t变量
     start = clock();//开始时间
 
-    Material Kathode(200,200,10);
-    Kathode.GenerateGaussRadius(1,1);
+    Material Kathode(200,200,50);
+    Kathode.GenerateGaussRadius(3,1);
     Kathode.SetSeed();
     Kathode.SeedGrowth();
     Kathode.PrintMatrix();
     Kathode.PrintRadius();
     std::cout<<Kathode.getPorosity()<<std::endl;
+    Kathode.InversePixelValue();
     Kathode.Vector3DToImag();
 
 

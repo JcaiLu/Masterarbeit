@@ -48,13 +48,50 @@ Matrix3D::Matrix3D(int raws, int cols, int nums):x(raws),y(cols),z(nums) {
 /// 5. set p[] as output
 /// 6. change the type of this point to particleKern
 
+int* Matrix3D::GeneratePointInMatrix(std::vector<std::vector<std::vector<PointStruct>>> & tempVector){
+    unsigned int beginNum = 2;
+    unsigned int tempNum = beginNum;
+    int* p =new int[3]{0,0,0};
+    std::random_device rd;
+    int _temp;
+    // mark all free postion
+    for(int i = 0; i< tempVector.size(); i++){
+        for (int j = 0; j< tempVector[0].size(); j++){
+            for(int k = 0; k < tempVector[0][0].size();k++)
+                if(tempVector[i][j][k].pixelValue != 255){
+                    continue;}
+                else{
+                    tempVector[i][j][k].tempValue = (int)tempNum;
+                    tempNum++;
+                }
+        }
+    }
+    std::uniform_int_distribution<int> dist(beginNum, tempNum);
+//    unsigned randValue =(rand()%(tempNum - beginNum+1))+beginNum;
+    _temp = dist(rd);
+
+    for(int i = 0; i< tempVector.size(); i++){
+        for (int j = 0; j< tempVector[0].size(); j++){
+            for(int k = 0; k < tempVector[0][0].size();k++){
+                if(tempVector[i][j][k].tempValue == _temp){
+                    p[0] = i;
+                    p[1] = j;
+                    p[2] = k;
+                }
+            }
+        }
+    }
+
+    return p;
+}
+
 int* Matrix3D::GeneratePointInMatrix(){
     unsigned int beginNum = 2;
     unsigned int tempNum = beginNum;
     int* p =new int[3]{0,0,0};
     std::random_device rd;
     int _temp;
-    std::vector<std::vector<std::vector<PointStruct>>> tempVector;
+    std::vector<std::vector<std::vector<PointStruct>>>  tempVector;
     this->CopyVectorTo(tempVector);
     // mark all free postion
     for(int i = 0; i< tempVector.size(); i++){
@@ -176,77 +213,35 @@ void Matrix3D::Vector3DToImag() {
 
 
         ss << std::setw(6) << std::setfill('0') << i;
-        s = R"(F:\desktop\Masterarbeit\Preprocessing\img\Image)" + ss.str()+ ".jpg";
+        s = R"(./img/Image)" + ss.str()+ ".bmp";
         cv::imwrite(s,mat1);
-        ss.clear();
+        ss.str("");
+
     }
 
 }
 
+void Matrix3D::VectorInit(vector<std::vector<std::vector<int>>> &_tempVector) {
+    for(int  i = 0; i < this->vector3D.size();i++){
+        std::vector<vector<int>> temp2D;
+        for (int j = 0; j< this->vector3D[0].size(); j++){
+            std::vector<int> temp1D;
+            for(int k = 0; k < this->vector3D[0][0].size();k++)
+                temp1D.push_back(0);
+            temp2D.push_back(temp1D);
+        }
+        _tempVector.push_back(temp2D);
+    }
+}
+
+void Matrix3D::InversePixelValue() {
+    for(int  i = 0; i < this->vector3D.size();i++){
+        for (int j = 0; j< this->vector3D[0].size(); j++){
+            for(int k = 0; k < this->vector3D[0][0].size();k++)
+                this->vector3D[i][j][k].pixelValue = abs(this->vector3D[i][j][k].pixelValue - 255);
+        }
+    }
+}
 
 
-
-
-// Function imgGauss3D
-// slice 3D image to  2D then use the opencv command
-//void Matrix3D::ImgGauss3D(std::vector<cv::Mat> &inputMatrix) {
-//
-//}
-//
-//void Matrix3D::RandomMatrix(vector<std::vector<std::vector<float>>> &pStrInput) {
-//
-//    unsigned int z = pStrInput.size();
-//    unsigned int y = pStrInput[0].size();
-//    unsigned int x = pStrInput[0][0].size();
-//
-//    for(int i = 0 ; i < z ; i++){
-//        for (int j = 0; j < y ; j++ ){
-//            for (int k = 0; k < x ; k++)
-//                pStrInput[i][j][k] = ((float) rand() / (RAND_MAX));
-//        }
-//    }
-//    cout <<"Random finished"<<endl;
-//
-//}
-//
-//void Matrix3D::PrintMatrix(const vector<std::vector<std::vector<float>>> &pStrInput) {
-
-//
-//
-//
-//}
-//
-
-
-//
-//
-
-//void Matrix3D::copyTo(std::vector<std::vector<std::vector<float>>> &from, vector<std::vector<std::vector<float>>> &newVector) {
-//
-//    for(int i = 0; i< from.size(); i++){
-//        std::vector<vector<float>> temp2D;
-//        for (int j = 0; j< from[0].size(); j++){
-//            std::vector<float> temp1D;
-//            for(int k = 0; k < from[0][0].size();k++)
-//                temp1D.push_back(from[i][j][k]);
-//            temp2D.push_back(temp1D);
-//        }
-//        newVector.push_back(temp2D);
-//    }
-//
-//}
-////// this function is used to set a random points in the Matrix "pStrInput"
-////
-////
-//
-//void Matrix3D::RandomPointInMatrix(vector<std::vector<std::vector<float>>> &pStrInput, int *p) {
-//
-//    if(p[3] == NULL) {
-//        std::cout << "Bitte die Position ueberpruefen!!!";
-//    }
-//
-//    //set a random point
-//
-//
-//}
 

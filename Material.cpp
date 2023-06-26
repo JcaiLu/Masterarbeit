@@ -51,8 +51,11 @@ void Material::SetSeed() {
 
     int *temp;
 
+    std::vector<std::vector<std::vector<PointStruct>>> _tempVector;
+    this->CopyVectorTo(_tempVector);
+
     for(int  i = 0; i< this->particleCollection.size(); i++){
-        temp = this->GeneratePointInMatrix();  // set one point to Matrix
+        temp = this->GeneratePointInMatrix(_tempVector);  // set one point to Matrix
         int _z = *temp;
         int _y = *(temp+1);
         int _x = *(temp+2);
@@ -166,7 +169,7 @@ float Material::getPorosity() {
             }
         }
     }
-    _porosity = (float)_count/(float)(this->getX()*this->getY()*this->getZ());
+    _porosity = 1 - (float)_count/(float)(this->getX()*this->getY()*this->getZ());
     return _porosity;
 }
 
